@@ -1,0 +1,1594 @@
+{
+  "board": {
+    "locations": [{
+        "type": "ResourceLocation",
+        "name": "Hunt",
+        "resource": {
+          "value": 2,
+          "amount": -1,
+          "imageurl": ":/assets/resources/gameassets/resource0.png",
+          "type": 0
+        },
+        "minworkers": 1,
+        "maxworkers": -1,
+        "places": [{
+            "name": "Hunt",
+            "x": 50,
+            "y": 90
+          },
+          {
+            "name": "Hunt",
+            "x": 80,
+            "y": 90
+          },
+          {
+            "name": "Hunt",
+            "x": 110,
+            "y": 90
+          },
+          {
+            "name": "Hunt",
+            "x": 140,
+            "y": 90
+          },
+          {
+            "name": "Hunt",
+            "x": 170,
+            "y": 90
+          },
+          {
+            "name": "Hunt",
+            "x": 200,
+            "y": 90
+          },
+          {
+            "name": "Hunt",
+            "x": 50,
+            "y": 120
+          },
+          {
+            "name": "Hunt",
+            "x": 80,
+            "y": 120
+          },
+          {
+            "name": "Hunt",
+            "x": 110,
+            "y": 120
+          },
+          {
+            "name": "Hunt",
+            "x": 140,
+            "y": 120
+          },
+          {
+            "name": "Hunt",
+            "x": 170,
+            "y": 120
+          },
+          {
+            "name": "Hunt",
+            "x": 200,
+            "y": 120
+          },
+          {
+            "name": "Hunt",
+            "x": 50,
+            "y": 150
+          },
+          {
+            "name": "Hunt",
+            "x": 80,
+            "y": 150
+          },
+          {
+            "name": "Hunt",
+            "x": 110,
+            "y": 150
+          },
+          {
+            "name": "Hunt",
+            "x": 140,
+            "y": 150
+          },
+          {
+            "name": "Hunt",
+            "x": 170,
+            "y": 150
+          },
+          {
+            "name": "Hunt",
+            "x": 200,
+            "y": 150
+          },
+          {
+            "name": "Hunt",
+            "x": 50,
+            "y": 180
+          },
+          {
+            "name": "Hunt",
+            "x": 80,
+            "y": 180
+          },
+          {
+            "name": "Hunt",
+            "x": 110,
+            "y": 180
+          },
+          {
+            "name": "Hunt",
+            "x": 140,
+            "y": 180
+          },
+          {
+            "name": "Hunt",
+            "x": 170,
+            "y": 180
+          },
+          {
+            "name": "Hunt",
+            "x": 200,
+            "y": 180
+          },
+          {
+            "name": "Hunt",
+            "x": 50,
+            "y": 210
+          },
+          {
+            "name": "Hunt",
+            "x": 80,
+            "y": 210
+          },
+          {
+            "name": "Hunt",
+            "x": 110,
+            "y": 210
+          },
+          {
+            "name": "Hunt",
+            "x": 140,
+            "y": 210
+          },
+          {
+            "name": "Hunt",
+            "x": 170,
+            "y": 210
+          },
+          {
+            "name": "Hunt",
+            "x": 200,
+            "y": 210
+          },
+          {
+            "name": "Hunt",
+            "x": 50,
+            "y": 240
+          },
+          {
+            "name": "Hunt",
+            "x": 80,
+            "y": 240
+          },
+          {
+            "name": "Hunt",
+            "x": 110,
+            "y": 240
+          },
+          {
+            "name": "Hunt",
+            "x": 140,
+            "y": 240
+          },
+          {
+            "name": "Hunt",
+            "x": 170,
+            "y": 240
+          },
+          {
+            "name": "Hunt",
+            "x": 200,
+            "y": 240
+          },
+          {
+            "name": "Hunt",
+            "x": 50,
+            "y": 270
+          },
+          {
+            "name": "Hunt",
+            "x": 80,
+            "y": 270
+          },
+          {
+            "name": "Hunt",
+            "x": 110,
+            "y": 270
+          },
+          {
+            "name": "Hunt",
+            "x": 140,
+            "y": 270
+          }
+        ]
+      },
+      {
+        "type": "ResourceLocation",
+        "name": "Forest",
+        "resource": {
+          "value": 3,
+          "amount": -1,
+          "imageurl": ":/assets/resources/gameassets/resource1.png",
+          "type": 1
+        },
+        "minworkers": 1,
+        "maxworkers": 7,
+        "places": [{
+            "name": "Forest",
+            "x": 365,
+            "y": 115
+          },
+          {
+            "name": "Forest",
+            "x": 410,
+            "y": 128
+          },
+          {
+            "name": "Forest",
+            "x": 377,
+            "y": 147
+          },
+          {
+            "name": "Forest",
+            "x": 426,
+            "y": 153
+          },
+          {
+            "name": "Forest",
+            "x": 365,
+            "y": 174
+          },
+          {
+            "name": "Forest",
+            "x": 409,
+            "y": 176
+          },
+          {
+            "name": "Forest",
+            "x": 430,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "type": "ResourceLocation",
+        "name": "Clay Pit",
+        "resource": {
+          "value": 4,
+          "amount": -1,
+          "imageurl": ":/assets/resources/gameassets/resource2.png",
+          "type": 2
+        },
+        "minworkers": 0,
+        "maxworkers": 7,
+        "places": [{
+            "name": "Clay Pit",
+            "x": 585,
+            "y": 130
+          },
+          {
+            "name": "Clay Pit",
+            "x": 642,
+            "y": 122
+          },
+          {
+            "name": "Clay Pit",
+            "x": 632,
+            "y": 148
+          },
+          {
+            "name": "Clay Pit",
+            "x": 691,
+            "y": 116
+          },
+          {
+            "name": "Clay Pit",
+            "x": 685,
+            "y": 145
+          },
+          {
+            "name": "Clay Pit",
+            "x": 738,
+            "y": 125
+          },
+          {
+            "name": "Clay Pit",
+            "x": 744,
+            "y": 157
+          }
+        ]
+      },
+      {
+        "type": "ResourceLocation",
+        "name": "Quarry",
+        "resource": {
+          "value": 5,
+          "amount": -1,
+          "imageurl": ":/assets/resources/gameassets/resource3.png",
+          "type": 3
+        },
+        "minworkers": 0,
+        "maxworkers": 7,
+        "places": [{
+            "name": "Quarry",
+            "x": 1111,
+            "y": 111
+          },
+          {
+            "name": "Quarry",
+            "x": 1162,
+            "y": 113
+          },
+          {
+            "name": "Quarry",
+            "x": 1148,
+            "y": 136
+          },
+          {
+            "name": "Quarry",
+            "x": 1196,
+            "y": 135
+          },
+          {
+            "name": "Quarry",
+            "x": 1157,
+            "y": 159
+          },
+          {
+            "name": "Quarry",
+            "x": 1204,
+            "y": 165
+          },
+          {
+            "name": "Quarry",
+            "x": 1187,
+            "y": 194
+          }
+        ]
+      },
+      {
+        "type": "ResourceLocation",
+        "name": "River",
+        "resource": {
+          "value": 6,
+          "amount": -1,
+          "imageurl": ":/assets/resources/gameassets/resource4.png",
+          "type": 4
+        },
+        "minworkers": 0,
+        "maxworkers": 7,
+        "places": [{
+            "name": "River",
+            "x": 954,
+            "y": 279
+          },
+          {
+            "name": "River",
+            "x": 943,
+            "y": 303
+          },
+          {
+            "name": "River",
+            "x": 1003,
+            "y": 276
+          },
+          {
+            "name": "River",
+            "x": 1050,
+            "y": 282
+          },
+          {
+            "name": "River",
+            "x": 992,
+            "y": 301
+          },
+          {
+            "name": "River",
+            "x": 1038,
+            "y": 309
+          },
+          {
+            "name": "River",
+            "x": 999,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "type": "FieldLocation",
+        "name": "Field",
+        "minworkers": 1,
+        "maxworkers": 1,
+        "places": [{
+          "name": "Field",
+          "x": 335,
+          "y": 400
+        }]
+      },
+      {
+        "type": "HutLocation",
+        "name": "Hut",
+        "minworkers": 2,
+        "maxworkers": 2,
+        "places": [{
+            "name": "Hut",
+            "x": 440,
+            "y": 512
+          },
+          {
+            "name": "Hut",
+            "x": 486,
+            "y": 506
+          }
+        ]
+      },
+      {
+        "type": "ToolMakerLocation",
+        "name": "Tool Maker",
+        "tools": [{
+            "level": 1,
+            "used": false,
+            "maxlevel": 2,
+            "isoneuse": false
+          },
+          {
+            "level": 1,
+            "used": false,
+            "maxlevel": 2,
+            "isoneuse": false
+          },
+          {
+            "level": 1,
+            "used": false,
+            "maxlevel": 2,
+            "isoneuse": false
+          },
+          {
+            "level": 1,
+            "used": false,
+            "maxlevel": 2,
+            "isoneuse": false
+          },
+          {
+            "level": 1,
+            "used": false,
+            "isoneuse": false
+          },
+          {
+            "level": 1,
+            "used": false,
+            "maxlevel": 2,
+            "isoneuse": false
+          },
+          {
+            "level": 1,
+            "used": false,
+            "maxlevel": 2,
+            "isoneuse": false
+          },
+          {
+            "level": 1,
+            "used": false,
+            "isoneuse": false
+          },
+          {
+            "level": 1,
+            "used": false,
+            "maxlevel": 2,
+            "isoneuse": false
+          },
+          {
+            "level": 1,
+            "used": false,
+            "maxlevel": 2,
+            "isoneuse": false
+          },
+          {
+            "level": 1,
+            "used": false,
+            "maxlevel": 2,
+            "isoneuse": false
+          },
+          {
+            "level": 1,
+            "used": false,
+            "maxlevel": 2,
+            "isoneuse": false
+          },
+          {
+            "level": 3,
+            "used": false,
+            "isoneuse": false
+          },
+          {
+            "level": 3,
+            "used": false,
+            "maxlevel": 4,
+            "isoneuse": false
+          },
+          {
+            "level": 3,
+            "used": false,
+            "maxlevel": 4,
+            "isoneuse": false
+          },
+          {
+            "level": 3,
+            "used": false,
+            "maxlevel": 4,
+            "isoneuse": false
+          },
+          {
+            "level": 3,
+            "used": false,
+            "maxlevel": 4,
+            "isoneuse": false
+          },
+          {
+            "level": 3,
+            "used": false,
+            "maxlevel": 4,
+            "isoneuse": false
+          }
+        ],
+        "minworkers": 1,
+        "maxworkers": 1,
+        "places": [{
+          "name": "Tool Maker",
+          "x": 665,
+          "y": 365
+        }]
+      }
+    ],
+    "buildingcardsdeck": {
+      "buildingcards": [{
+          "type": 0,
+          "resources": [{
+              "value": 3,
+              "amount": 2,
+              "imageurl": ":/assets/resources/gameassets/resource1.png",
+              "type": 1
+            },
+            {
+              "value": 4,
+              "amount": 1,
+              "imageurl": ":/assets/resources/gameassets/resource2.png",
+              "type": 2
+            }
+          ],
+          "points": 10,
+          "imagepath": ":/assets/resources/gameassets/BuildingCards/1.jpg"
+        },
+        {
+          "type": 0,
+          "resources": [{
+              "value": 3,
+              "amount": 1,
+              "imageurl": ":/assets/resources/gameassets/resource1.png",
+              "type": 1
+            },
+            {
+              "value": 5,
+              "amount": 1,
+              "imageurl": ":/assets/resources/gameassets/resource3.png",
+              "type": 3
+            }
+          ],
+          "points": 11,
+          "imagepath": ":/assets/resources/gameassets/BuildingCards/2.jpg"
+        },
+        {
+          "type": 0,
+          "resources": [{
+              "value": 3,
+              "amount": 1,
+              "imageurl": ":/assets/resources/gameassets/resource1.png",
+              "type": 1
+            },
+            {
+              "value": 4,
+              "amount": 2,
+              "imageurl": ":/assets/resources/gameassets/resource2.png",
+              "type": 2
+            }
+          ],
+          "points": 11,
+          "imagepath": ":/assets/resources/gameassets/BuildingCards/3.jpg"
+        },
+        {
+          "type": 0,
+          "resources": [{
+              "value": 3,
+              "amount": 2,
+              "imageurl": ":/assets/resources/gameassets/resource1.png",
+              "type": 1
+            },
+
+            {
+              "value": 6,
+              "amount": 1,
+              "imageurl": ":/assets/resources/gameassets/resource4.png",
+              "type": 4
+            }
+          ],
+          "points": 12,
+          "imagepath": ":/assets/resources/gameassets/BuildingCards/4.jpg"
+        },
+        {
+          "type": 0,
+          "resources": [{
+              "value": 3,
+              "amount": 1,
+              "imageurl": ":/assets/resources/gameassets/resource1.png",
+              "type": 1
+            },
+            {
+              "value": 5,
+              "amount": 2,
+              "imageurl": ":/assets/resources/gameassets/resource3.png",
+              "type": 3
+            }
+          ],
+          "points": 13,
+          "imagepath": ":/assets/resources/gameassets/BuildingCards/5.jpg"
+        },
+        {
+          "type": 0,
+          "resources": [{
+              "value": 4,
+              "amount": 2,
+              "imageurl": ":/assets/resources/gameassets/resource2.png",
+              "type": 2
+            },
+            {
+              "value": 5,
+              "amount": 1,
+              "imageurl": ":/assets/resources/gameassets/resource3.png",
+              "type": 3
+            }
+          ],
+          "points": 13,
+          "imagepath": ":/assets/resources/gameassets/BuildingCards/6.jpg"
+        },
+        {
+          "type": 0,
+          "resources": [{
+              "value": 4,
+              "amount": 2,
+              "imageurl": ":/assets/resources/gameassets/resource2.png",
+              "type": 2
+            },
+            {
+              "value": 6,
+              "amount": 1,
+              "imageurl": ":/assets/resources/gameassets/resource4.png",
+              "type": 4
+            }
+          ],
+          "points": 14,
+          "imagepath": ":/assets/resources/gameassets/BuildingCards/7.jpg"
+        },
+        {
+          "type": 0,
+          "resources": [{
+              "value": 4,
+              "amount": 1,
+              "imageurl": ":/assets/resources/gameassets/resource2.png",
+              "type": 2
+            },
+            {
+              "value": 5,
+              "amount": 2,
+              "imageurl": ":/assets/resources/gameassets/resource3.png",
+              "type": 3
+            }
+          ],
+          "points": 14,
+          "imagepath": ":/assets/resources/gameassets/BuildingCards/8.jpg"
+        },
+        {
+          "type": 0,
+          "resources": [{
+              "value": 5,
+              "amount": 2,
+              "imageurl": ":/assets/resources/gameassets/resource3.png",
+              "type": 3
+            },
+            {
+              "value": 6,
+              "amount": 1,
+              "imageurl": ":/assets/resources/gameassets/resource4.png",
+              "type": 4
+            }
+          ],
+          "points": 16,
+          "imagepath": ":/assets/resources/gameassets/BuildingCards/9.jpg"
+        },
+        {
+          "type": 0,
+          "resources": [{
+              "value": 3,
+              "amount": 1,
+              "imageurl": ":/assets/resources/gameassets/resource1.png",
+              "type": 1
+            },
+            {
+              "value": 4,
+              "amount": 1,
+              "imageurl": ":/assets/resources/gameassets/resource2.png",
+              "type": 2
+            },
+            {
+              "value": 5,
+              "amount": 1,
+              "imageurl": ":/assets/resources/gameassets/resource3.png",
+              "type": 3
+            }
+          ],
+          "points": 12,
+          "imagepath": ":/assets/resources/gameassets/BuildingCards/10.jpg"
+        },
+        {
+          "type": 0,
+          "resources": [{
+              "value": 3,
+              "amount": 1,
+              "imageurl": ":/assets/resources/gameassets/resource1.png",
+              "type": 1
+            },
+            {
+              "value": 4,
+              "amount": 1,
+              "imageurl": ":/assets/resources/gameassets/resource2.png",
+              "type": 2
+            },
+            {
+              "value": 5,
+              "amount": 1,
+              "imageurl": ":/assets/resources/gameassets/resource3.png",
+              "type": 3
+            }
+          ],
+          "points": 12,
+          "imagepath": ":/assets/resources/gameassets/BuildingCards/10.jpg"
+        },
+        {
+          "type": 0,
+          "resources": [{
+              "value": 3,
+              "amount": 1,
+              "imageurl": ":/assets/resources/gameassets/resource1.png",
+              "type": 1
+            },
+            {
+              "value": 4,
+              "amount": 1,
+              "imageurl": ":/assets/resources/gameassets/resource2.png",
+              "type": 2
+            },
+            {
+              "value": 6,
+              "amount": 1,
+              "imageurl": ":/assets/resources/gameassets/resource4.png",
+              "type": 4
+            }
+          ],
+          "points": 13,
+          "imagepath": ":/assets/resources/gameassets/BuildingCards/11.jpg"
+        },
+        {
+          "type": 0,
+          "resources": [{
+              "value": 3,
+              "amount": 1,
+              "imageurl": ":/assets/resources/gameassets/resource1.png",
+              "type": 1
+            },
+            {
+              "value": 4,
+              "amount": 1,
+              "imageurl": ":/assets/resources/gameassets/resource2.png",
+              "type": 2
+            },
+            {
+              "value": 6,
+              "amount": 1,
+              "imageurl": ":/assets/resources/gameassets/resource4.png",
+              "type": 4
+            }
+          ],
+          "points": 13,
+          "imagepath": ":/assets/resources/gameassets/BuildingCards/11.jpg"
+        },
+        {
+          "type": 0,
+          "resources": [{
+              "value": 3,
+              "amount": 1,
+              "imageurl": ":/assets/resources/gameassets/resource1.png",
+              "type": 1
+            },
+            {
+              "value": 5,
+              "amount": 1,
+              "imageurl": ":/assets/resources/gameassets/resource3.png",
+              "type": 3
+            },
+            {
+              "value": 6,
+              "amount": 1,
+              "imageurl": ":/assets/resources/gameassets/resource4.png",
+              "type": 4
+            }
+          ],
+          "points": 14,
+          "imagepath": ":/assets/resources/gameassets/BuildingCards/12.jpg"
+        },
+        {
+          "type": 0,
+          "resources": [{
+              "value": 3,
+              "amount": 1,
+              "imageurl": ":/assets/resources/gameassets/resource1.png",
+              "type": 1
+            },
+            {
+              "value": 5,
+              "amount": 1,
+              "imageurl": ":/assets/resources/gameassets/resource3.png",
+              "type": 3
+            },
+            {
+              "value": 6,
+              "amount": 1,
+              "imageurl": ":/assets/resources/gameassets/resource4.png",
+              "type": 4
+            }
+          ],
+          "points": 14,
+          "imagepath": ":/assets/resources/gameassets/BuildingCards/12.jpg"
+        },
+        {
+          "type": 0,
+          "resources": [{
+              "value": 4,
+              "amount": 1,
+              "imageurl": ":/assets/resources/gameassets/resource2.png",
+              "type": 2
+            },
+            {
+              "value": 5,
+              "amount": 1,
+              "imageurl": ":/assets/resources/gameassets/resource3.png",
+              "type": 3
+            },
+            {
+              "value": 6,
+              "amount": 1,
+              "imageurl": ":/assets/resources/gameassets/resource4.png",
+              "type": 4
+            }
+          ],
+          "points": 15,
+          "imagepath": ":/assets/resources/gameassets/BuildingCards/13.jpg"
+        },
+        {
+          "type": 0,
+          "resources": [{
+              "value": 4,
+              "amount": 1,
+              "imageurl": ":/assets/resources/gameassets/resource2.png",
+              "type": 2
+            },
+            {
+              "value": 5,
+              "amount": 1,
+              "imageurl": ":/assets/resources/gameassets/resource3.png",
+              "type": 3
+            },
+            {
+              "value": 6,
+              "amount": 1,
+              "imageurl": ":/assets/resources/gameassets/resource4.png",
+              "type": 4
+            }
+          ],
+          "points": 15,
+          "imagepath": ":/assets/resources/gameassets/BuildingCards/13.jpg"
+        },
+        {
+          "type": 1,
+          "resources": [],
+          "points": 0,
+          "imagepath": ":/assets/resources/gameassets/BuildingCards/14.jpg",
+          "differenttypes": 1,
+          "amountneeded": 4
+        },
+        {
+          "type": 1,
+          "resources": [],
+          "points": 0,
+          "imagepath": ":/assets/resources/gameassets/BuildingCards/15.jpg",
+          "differenttypes": 2,
+          "amountneeded": 4
+        },
+        {
+          "type": 1,
+          "resources": [],
+          "points": 0,
+          "imagepath": ":/assets/resources/gameassets/BuildingCards/16.jpg",
+          "differenttypes": 3,
+          "amountneeded": 4
+        },
+        {
+          "type": 1,
+          "resources": [],
+          "points": 0,
+          "imagepath": ":/assets/resources/gameassets/BuildingCards/17.jpg",
+          "differenttypes": 4,
+          "amountneeded": 4
+        },
+        {
+          "type": 1,
+          "resources": [],
+          "points": 0,
+          "imagepath": ":/assets/resources/gameassets/BuildingCards/18.jpg",
+          "differenttypes": 1,
+          "amountneeded": 5
+        },
+        {
+          "type": 1,
+          "resources": [],
+          "points": 0,
+          "imagepath": ":/assets/resources/gameassets/BuildingCards/19.jpg",
+          "differenttypes": 2,
+          "amountneeded": 5
+        },
+        {
+          "type": 1,
+          "resources": [],
+          "points": 0,
+          "imagepath": ":/assets/resources/gameassets/BuildingCards/20.jpg",
+          "differenttypes": 3,
+          "amountneeded": 5
+        },
+        {
+          "type": 1,
+          "resources": [],
+          "points": 0,
+          "imagepath": ":/assets/resources/gameassets/BuildingCards/21.jpg",
+          "differenttypes": 4,
+          "amountneeded": 5
+        },
+        {
+          "type": 1,
+          "resources": [],
+          "points": 0,
+          "imagepath": ":/assets/resources/gameassets/BuildingCards/22.jpg",
+          "differenttypes": -1,
+          "amountneeded": 7
+        },
+        {
+          "type": 1,
+          "resources": [],
+          "points": 0,
+          "imagepath": ":/assets/resources/gameassets/BuildingCards/22.jpg",
+          "differenttypes": -1,
+          "amountneeded": 7
+        },
+        {
+          "type": 1,
+          "resources": [],
+          "points": 0,
+          "imagepath": ":/assets/resources/gameassets/BuildingCards/22.jpg",
+          "differenttypes": -1,
+          "amountneeded": 7
+        }
+      ],
+      "decks": [{
+          "name": "Building Cards Deck 1",
+          "minworkers": 1,
+          "maxworkers": 1,
+          "buildingcards": [],
+          "activecardindex": 0,
+          "places": [{
+            "name": "Building Cards Deck 1",
+            "x": 68,
+            "y": 621
+          }]
+        },
+        {
+          "name": "Building Cards Deck 2",
+          "minworkers": 1,
+          "maxworkers": 1,
+          "activecardindex": 0,
+          "buildingcards": [],
+          "places": [{
+            "name": "Building Cards Deck 2",
+            "x": 208,
+            "y": 621
+          }]
+        },
+        {
+          "name": "Building Cards Deck 3",
+          "minworkers": 1,
+          "maxworkers": 1,
+          "buildingcards": [],
+          "activecardindex": 0,
+          "places": [{
+            "name": "Building Cards Deck 3",
+            "x": 348,
+            "y": 621
+          }]
+        },
+        {
+          "name": "Building Cards Deck 4",
+          "minworkers": 1,
+          "maxworkers": 1,
+          "buildingcards": [],
+          "activecardindex": 0,
+          "places": [{
+            "name": "Building Cards Deck 4",
+            "x": 488,
+            "y": 621
+          }]
+        }
+      ]
+    },
+    "civilizationcardsdeck": {
+      "civilizationcards": [{
+          "card": {
+            "cardtype": 6,
+            "normalcardamount": -1,
+            "imagepath": ":/assets/resources/gameassets/CivilizationCards/1.jpg"
+          },
+          "type": 2
+        },
+        {
+          "card": {
+            "cardtype": 8,
+            "normalcardamount": 1,
+            "imagepath": ":/assets/resources/gameassets/CivilizationCards/2.jpg"
+          },
+          "type": 2
+        },
+        {
+          "card": {
+            "cardtype": 8,
+            "normalcardamount": 2,
+            "imagepath": ":/assets/resources/gameassets/CivilizationCards/3.jpg"
+          },
+          "type": 2
+        },
+        {
+          "card": {
+            "cardtype": 1,
+            "normalcardamount": -1,
+            "imagepath": ":/assets/resources/gameassets/CivilizationCards/4.jpg"
+          },
+          "type": 2
+        },
+        {
+          "card": {
+            "cardtype": 11,
+            "normalcardamount": 2,
+            "imagepath": ":/assets/resources/gameassets/CivilizationCards/5.jpg"
+          },
+          "type": 2
+        },
+        {
+          "card": {
+            "cardtype": 9,
+            "normalcardamount": 1,
+            "imagepath": ":/assets/resources/gameassets/CivilizationCards/6.jpg"
+          },
+          "type": 2
+        },
+        {
+          "card": {
+            "cardtype": 9,
+            "normalcardamount": 2,
+            "imagepath": ":/assets/resources/gameassets/CivilizationCards/7.jpg"
+          },
+          "type": 2
+        },
+        {
+          "card": {
+            "cardtype": 2,
+            "normalcardamount": -1,
+            "imagepath": ":/assets/resources/gameassets/CivilizationCards/8.jpg"
+          },
+          "type": 2
+        },
+        {
+          "card": {
+            "cardtype": 5,
+            "normalcardamount": -1,
+            "imagepath": ":/assets/resources/gameassets/CivilizationCards/9.jpg"
+          },
+          "type": 2
+        },
+        {
+          "card": {
+            "cardtype": 6,
+            "normalcardamount": -1,
+            "imagepath": ":/assets/resources/gameassets/CivilizationCards/10.jpg"
+          },
+          "type": 5,
+          "resourceamount": 7,
+          "resourcetype": 0
+        },
+        {
+          "card": {
+            "cardtype": 8,
+            "normalcardamount": 2,
+            "imagepath": ":/assets/resources/gameassets/CivilizationCards/11.jpg"
+          },
+          "type": 5,
+          "resourceamount": 2,
+          "resourcetype": 0
+        },
+        {
+          "card": {
+            "cardtype": 8,
+            "normalcardamount": 1,
+            "imagepath": ":/assets/resources/gameassets/CivilizationCards/12.jpg"
+          },
+          "type": 5,
+          "resourceamount": 4,
+          "resourcetype": 0
+        },
+        {
+          "card": {
+            "cardtype": 0,
+            "normalcardamount": -1,
+            "imagepath": ":/assets/resources/gameassets/CivilizationCards/13.jpg"
+          },
+          "type": 5,
+          "resourceamount": 5,
+          "resourcetype": 0
+        },
+        {
+          "card": {
+            "cardtype": 7,
+            "normalcardamount": -1,
+            "imagepath": ":/assets/resources/gameassets/CivilizationCards/14.jpg"
+          },
+          "type": 5,
+          "resourceamount": 3,
+          "resourcetype": 0
+        },
+        {
+          "card": {
+            "cardtype": 7,
+            "normalcardamount": -1,
+            "imagepath": ":/assets/resources/gameassets/CivilizationCards/15.jpg"
+          },
+          "type": 5,
+          "resourceamount": 1,
+          "resourcetype": 0
+        },
+        {
+          "card": {
+            "cardtype": 9,
+            "normalcardamount": 2,
+            "imagepath": ":/assets/resources/gameassets/CivilizationCards/16.jpg"
+          },
+          "type": 5,
+          "resourceamount": 3,
+          "resourcetype": 0
+        },
+        {
+          "card": {
+            "cardtype": 9,
+            "normalcardamount": 1,
+            "imagepath": ":/assets/resources/gameassets/CivilizationCards/17.jpg"
+          },
+          "type": 5,
+          "resourceamount": 1,
+          "resourcetype": 3
+        },
+        {
+          "card": {
+            "cardtype": 5,
+            "normalcardamount": -1,
+            "imagepath": ":/assets/resources/gameassets/CivilizationCards/18.jpg"
+          },
+          "type": 5,
+          "resourceamount": 2,
+          "resourcetype": 3
+        },
+        {
+          "card": {
+            "cardtype": 10,
+            "normalcardamount": 1,
+            "imagepath": ":/assets/resources/gameassets/CivilizationCards/19.jpg"
+          },
+          "type": 5,
+          "resourceamount": 1,
+          "resourcetype": 3
+        },
+        {
+          "card": {
+            "cardtype": 10,
+            "normalcardamount": 1,
+            "imagepath": ":/assets/resources/gameassets/CivilizationCards/20.jpg"
+          },
+          "type": 5,
+          "resourceamount": 1,
+          "resourcetype": 4
+        },
+        {
+          "card": {
+            "cardtype": 10,
+            "normalcardamount": 2,
+            "imagepath": ":/assets/resources/gameassets/CivilizationCards/21.jpg"
+          },
+          "type": 5,
+          "resourceamount": 1,
+          "resourcetype": 2
+        },
+        {
+          "card": {
+            "cardtype": 3,
+            "normalcardamount": -1,
+            "imagepath": ":/assets/resources/gameassets/CivilizationCards/22.jpg"
+          },
+          "type": 6,
+          "resourcetype": 4,
+          "resourcevalue": 6
+        },
+        {
+          "card": {
+            "cardtype": 10,
+            "normalcardamount": 2,
+            "imagepath": ":/assets/resources/gameassets/CivilizationCards/23.jpg"
+          },
+          "type": 6,
+          "resourcetype": 1,
+          "resourcevalue": 3
+        },
+        {
+          "card": {
+            "cardtype": 10,
+            "normalcardamount": 1,
+            "imagepath": ":/assets/resources/gameassets/CivilizationCards/24.jpg"
+          },
+          "type": 6,
+          "resourcetype": 3,
+          "resourcevalue": 5
+        },
+        {
+          "card": {
+            "cardtype": 8,
+            "normalcardamount": 3,
+            "imagepath": ":/assets/resources/gameassets/CivilizationCards/25.jpg"
+          },
+          "type": 3
+        },
+        {
+          "card": {
+            "cardtype": 4,
+            "normalcardamount": -1,
+            "imagepath": ":/assets/resources/gameassets/CivilizationCards/26.jpg"
+          },
+          "type": 3
+        },
+        {
+          "card": {
+            "cardtype": 4,
+            "normalcardamount": -1,
+            "imagepath": ":/assets/resources/gameassets/CivilizationCards/27.jpg"
+          },
+          "type": 3
+        },
+        {
+          "card": {
+            "cardtype": 3,
+            "normalcardamount": -1,
+            "imagepath": ":/assets/resources/gameassets/CivilizationCards/28.jpg"
+          },
+          "type": 7
+        },
+        {
+          "card": {
+            "cardtype": 9,
+            "normalcardamount": 1,
+            "imagepath": ":/assets/resources/gameassets/CivilizationCards/29.jpg"
+          },
+          "type": 1
+        },
+        {
+          "card": {
+            "cardtype": 2,
+            "normalcardamount": -1,
+            "imagepath": ":/assets/resources/gameassets/CivilizationCards/30.jpg"
+          },
+          "type": 1
+        },
+        {
+          "card": {
+            "cardtype": 1,
+            "normalcardamount": -1,
+            "imagepath": ":/assets/resources/gameassets/CivilizationCards/31.jpg"
+          },
+          "type": 0
+        },
+        {
+          "card": {
+            "cardtype": 11,
+            "normalcardamount": 1,
+            "imagepath": ":/assets/resources/gameassets/CivilizationCards/32.jpg"
+          },
+          "type": 8,
+          "tool": {
+            "level": 4,
+            "used": false,
+            "maxlevel": 4,
+            "isoneuse": true
+          }
+        },
+        {
+          "card": {
+            "cardtype": 11,
+            "normalcardamount": 1,
+            "imagepath": ":/assets/resources/gameassets/CivilizationCards/33.jpg"
+          },
+          "type": 8,
+          "tool": {
+            "level": 3,
+            "used": false,
+            "maxlevel": 3,
+            "isoneuse": true
+          }
+        },
+        {
+          "card": {
+            "cardtype": 11,
+            "normalcardamount": 2,
+            "imagepath": ":/assets/resources/gameassets/CivilizationCards/34.jpg"
+          },
+          "type": 8,
+          "tool": {
+            "level": 2,
+            "used": false,
+            "maxlevel": 2,
+            "isoneuse": true
+          }
+        },
+        {
+          "card": {
+            "cardtype": 0,
+            "normalcardamount": -1,
+            "imagepath": ":/assets/resources/gameassets/CivilizationCards/35.jpg"
+          },
+          "type": 4
+        }
+      ],
+      "activecards": [{
+          "places": [{
+            "name": "activecard1",
+            "x": 739,
+            "y": 588
+          }],
+          "name": "activecard1",
+          "minworkers": 1,
+          "maxworkers": 1,
+          "resourceneeded": 4
+        },
+        {
+          "places": [{
+            "name": "activecard2",
+            "x": 897,
+            "y": 588
+          }],
+          "name": "activecard2",
+          "minworkers": 1,
+          "maxworkers": 1,
+          "resourceneeded": 3
+        },
+        {
+          "places": [{
+            "name": "activecard3",
+            "x": 1054,
+            "y": 588
+          }],
+          "name": "activecard3",
+          "minworkers": 1,
+          "maxworkers": 1,
+          "resourceneeded": 2
+        },
+        {
+          "places": [{
+            "name": "activecard4",
+            "x": 1212,
+            "y": 588
+          }],
+          "name": "activecard4",
+          "minworkers": 1,
+          "maxworkers": 1,
+          "resourceneeded": 1
+        }
+      ]
+    }
+  },
+  "players": [{
+      "totalworkeramount": 5,
+      "availableworkeramount": 5,
+      "agriculturelevel": 0,
+      "resources": [{
+          "value": 2,
+          "amount": 12,
+          "imageurl": ":/assets/resources/gameassets/resource0.png",
+          "type": 0
+        },
+        {
+          "value": 3,
+          "amount": 0,
+          "imageurl": ":/assets/resources/gameassets/resource1.png",
+          "type": 1
+        },
+        {
+          "value": 4,
+          "amount": 0,
+          "imageurl": ":/assets/resources/gameassets/resource2.png",
+          "type": 2
+        },
+        {
+          "value": 5,
+          "amount": 0,
+          "imageurl": ":/assets/resources/gameassets/resource3.png",
+          "type": 3
+        },
+        {
+          "value": 6,
+          "amount": 0,
+          "imageurl": ":/assets/resources/gameassets/resource4.png",
+          "type": 4
+        }
+      ],
+      "buildingCards": [],
+      "civilizationCards": [],
+      "color": 0,
+      "score": 0,
+      "tools": []
+    },
+    {
+      "totalworkeramount": 5,
+      "availableworkeramount": 5,
+      "agriculturelevel": 0,
+      "resources": [{
+          "value": 2,
+          "amount": 12,
+          "imageurl": ":/assets/resources/gameassets/resource0.png",
+          "type": 0
+        },
+        {
+          "value": 3,
+          "amount": 0,
+          "imageurl": ":/assets/resources/gameassets/resource1.png",
+          "type": 1
+        },
+        {
+          "value": 4,
+          "amount": 0,
+          "imageurl": ":/assets/resources/gameassets/resource2.png",
+          "type": 2
+        },
+        {
+          "value": 5,
+          "amount": 0,
+          "imageurl": ":/assets/resources/gameassets/resource3.png",
+          "type": 3
+        },
+        {
+          "value": 6,
+          "amount": 0,
+          "imageurl": ":/assets/resources/gameassets/resource4.png",
+          "type": 4
+        }
+      ],
+      "buildingCards": [],
+      "civilizationCards": [],
+      "color": 1,
+      "score": 0,
+      "tools": []
+    },
+    {
+      "totalworkeramount": 5,
+      "availableworkeramount": 5,
+      "agriculturelevel": 0,
+      "resources": [{
+          "value": 2,
+          "amount": 12,
+          "imageurl": ":/assets/resources/gameassets/resource0.png",
+          "type": 0
+        },
+        {
+          "value": 3,
+          "amount": 0,
+          "imageurl": ":/assets/resources/gameassets/resource1.png",
+          "type": 1
+        },
+        {
+          "value": 4,
+          "amount": 0,
+          "imageurl": ":/assets/resources/gameassets/resource2.png",
+          "type": 2
+        },
+        {
+          "value": 5,
+          "amount": 0,
+          "imageurl": ":/assets/resources/gameassets/resource3.png",
+          "type": 3
+        },
+        {
+          "value": 6,
+          "amount": 0,
+          "imageurl": ":/assets/resources/gameassets/resource4.png",
+          "type": 4
+        }
+      ],
+      "buildingCards": [],
+      "civilizationCards": [],
+      "color": 2,
+      "score": 0,
+      "tools": []
+    },
+    {
+      "totalworkeramount": 5,
+      "availableworkeramount": 5,
+      "agriculturelevel": 0,
+      "resources": [{
+          "value": 2,
+          "amount": 12,
+          "imageurl": ":/assets/resources/gameassets/resource0.png",
+          "type": 0
+        },
+        {
+          "value": 3,
+          "amount": 0,
+          "imageurl": ":/assets/resources/gameassets/resource1.png",
+          "type": 1
+        },
+        {
+          "value": 4,
+          "amount": 0,
+          "imageurl": ":/assets/resources/gameassets/resource2.png",
+          "type": 2
+        },
+        {
+          "value": 5,
+          "amount": 0,
+          "imageurl": ":/assets/resources/gameassets/resource3.png",
+          "type": 3
+        },
+        {
+          "value": 6,
+          "amount": 0,
+          "imageurl": ":/assets/resources/gameassets/resource4.png",
+          "type": 4
+        }
+      ],
+      "buildingCards": [],
+      "civilizationCards": [],
+      "color": 3,
+      "score": 0,
+      "tools": []
+    }
+  ],
+  "currentplayer": 0,
+  "startplayer": 0,
+  "gamephase": 0
+}

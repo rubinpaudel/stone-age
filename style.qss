@@ -1,0 +1,113 @@
+QWidget {
+    background-color : #a47c55;
+    color: #fff;
+    font: 18px 'Nunito';
+}
+
+QMenu {
+    background : #84563c;
+    color : #fff;
+}
+
+QMenuBar {
+    background : #84563c;
+    color : #fff;
+}
+
+QLabel#text-color1 {
+    font-size: 18px;
+    font-weight: bold;
+    color : #e60000;
+}
+
+QLabel#text-color2 {
+    font-size: 18px;
+    font-weight: bold;
+    color : #34eb5c;
+}
+
+
+QLabel#text-color3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #7434eb;
+}
+
+
+QLabel#text-color4 {
+    font-size: 18px;
+    font-weight: bold;
+    color : #ebdc34;
+}
+
+QFrame#border0 {
+    border: 3px solid #eb3434;
+}
+
+QFrame#border1 {
+    border: 3px solid #34eb5c;
+}
+
+QFrame#border2 {
+    border: 3px solid #7434eb;
+}
+
+QFrame#border3 {
+    border: 3px solid #ebdc34;
+}
+
+QPushButton {
+    color: #fff;
+    height: 25px;
+    font-size: 16px;
+}
+
+QPushButton:!enabled{
+    background-color: #545454;
+}
+
+QPushButton#red-button:!enabled{
+    background-color: #545454;
+}
+
+
+QPushButton#green-button:!enabled {
+    background-color: #545454;
+}
+
+QPushButton#red-button {
+    background-color : #E85F56;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+QPushButton#green-button {
+    background-color : #04B056;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+QLabel#title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+QLabel#title-player {
+    font-weight: bold;
+}
+
+QLabel#player-item-title {
+
+    font-weight: bold;
+}
+
+QPushButton#default {
+    background-color : #84563c;
+    color : #fff;
+    font-weight: bold;
+}
+
+QPushButton#default:!enabled {
+    background-color: #545454;
+}

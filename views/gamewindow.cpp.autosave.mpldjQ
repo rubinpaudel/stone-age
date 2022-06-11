@@ -1,0 +1,103 @@
+#include "gamewindow.h"
+#include "startscreen.h"
+#include "game.h"
+
+#include <QDebug>
+#include <QMenu>
+#include <QMenuBar>
+#include <QApplication>
+#include <QFileDialog>
+#include <QMessageBox>
+#include <QJsonDocument>
+#include <QJsonObject>
+#include <QLabel> // remove later?
+
+GameWindow::GameWindow(QWidget *parent)
+    : QMainWindow(parent)
+{
+    initializeStartScreen();
+}
+
+void GameWindow::initializeStartScreen()
+{
+    setWindowTitle("Stone Age");
+    // setFixedSize(QSize{1920, 1080});
+    m_startScreen = new StartScreen;
+
+    // setWindowFlags(Qt::CustomizeWindowHint | Qt ::FramelessWindowHint);
+
+    connect(m_startScreen, &StartScreen::startButtonPushed, this, &GameWindow::startGame);
+    connect(m_startScreen, &StartScreen::loadButtonPushed, this, &GameWindow::loadGame);
+    connect(m_startScreen, &StartScreen::exitButtonPushed, this, &GameWindow::closeApplication);
+
+    setCentralWidget(m_startScreen);
+
+}
+
+void GameWindow::startGame()
+{
+    qDebug() << "Starting Game";
+    m_startScreen->close();
+
+    setupMenuBar();
+}
+
+void GameWindow::closeApplication()
+{
+    qDebug() << "Closing application";
+    QApplication::quit();
+}
+
+void GameWindow::newGame()
+{
+    QMessageBox::StandardButton reply{QMessageBox::question(this, "Warning",
+        "Are you sure you want to start a new game?\nCurrent progress will be lost.",
+        QMessageBox::Yes | QMessageBox::No)};
+    
+    if (reply == QMessageBox::Yes)
+        m_game->reset();
+}
+
+
+void GameWindow::loadGame()
+{
+    qDebug() << "in LoadGame()";
+
+    const QString loadDirectory{"../Stone_age/Saves"}; // QDesktopServices::storageLocation(QDesktopServices::HomeLocation)
+
+    QString path{QFileDialog::getOpenFileName(this, tr("Load Game"),
+                    loadDirectory, tr("JSON file (*.json)"))};
+
+    if (path.isEmpty())
+        return;
+    else {
+        QFile file(path);
+        if (!file.open(QIODevice::ReadOnly)) {
+            QMessageBox::information(this, tr("Unable to open file"),
+                        file.errorString());
+            return;
+        }
+    }
+
+    if (m_startScreen) {
+        startGame();
+    }
+
+    qDebug() << "Loaded from:" << path;
+    m_game->load(path);
+}
+
+void GameWindow::setupMenuBar()
+{
+    QMenu *menu = menuBar()->addMenu(tr("&File"));
+
+    menu->addAction(QIcon(":icons/resources/new.png"), tr("New Game"), this, &GameWindow::newGame);
+    menu->addAction(QIcon(":icons/resources/save.png"), tr("Save Game"), this, &GameWindow::saveGame);
+    menu->addAction(QIcon(":icons/resources/load.png"), tr("Load Game"), this, &GameWindow::loadGame);
+    menu->addAction(QIcon(":icons/resources/quit.png"), tr("Quit Game"), this, &GameWindow::closeApplication);
+
+}
+
+GameWindow::~GameWindow()
+{
+}
